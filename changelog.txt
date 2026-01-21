@@ -1,4 +1,10 @@
-== Changelog ==
+*** Hutko Payment Gateway Changelog ***
 
-= 1.0.0 =
+2026-01-21 - version 1.0.0
+* Added - Support for accepting online payments via Hutko
+    * Secure payment processing through Hutko API
+    * Order status synchronization with WooCommerce
+* Added - Configuration settings for merchant credentials
+* Added - Logging for payment and callback events
+* Update - Compatibility with latest WooCommerce version
 * Initial release
