@@ -1,10 +1,15 @@
 <?php
 /**
- * Plugin Name: WooCommerce - hutko payment gateway
+ * Plugin Name: hutko payment
  * Plugin URL: https://hutko.org/uk/tools/integrations/wordpress/woocommerce/
  * Description: hutko Payment Gateway for WooCommerce.
  * Author: hutko
  * Author URI: https://hutko.org
+ * Requires at least: 5.8
+ * Tested up to: 6.4
+ * Requires PHP: 7.4
+ * WC requires at least: 5.6
+ * WC tested up to: 9.6
  * Version: 3.5.0
  * Text Domain: oplata-woocommerce-payment-gateway
  * Domain Path: /languages
@@ -16,6 +21,7 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  *
  * @package Hutko_Payment_Gateway
+ * @since 3.0.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
